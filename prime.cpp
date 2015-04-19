@@ -31,7 +31,7 @@ int main()
 	}
 	printf("%lld\n",S[2*r]);
 	int end1 = clock();
-	printf("Total time is: %lf ms\n",(double)(end1 - start)/1000);
+	printf("Total time is: %lf s\n",(double)(end1 - start)/1000);
 	return 0;
 } 
 
@@ -39,7 +39,7 @@ int main()
 Compiled in Windows 7 with gcc:
 
 24739512092254535
-Total time is: 1.680000 ms
+Total time is: 0.675000 s
 
 The time complexity is approximate to O(n^{3/4}/log(n))
 */
