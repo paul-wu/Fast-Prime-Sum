@@ -25,7 +25,7 @@ int main()
 				if(V[j] < p2)break;
 				long long a = V[j], b = a/p;
 				TRIM(a)TRIM(b) // makes the indices correct
-				S[a] -= p*(S[b] - sp); // sieve out the sum of composite numbers in S[a] wich divided by p
+				S[a] -= p*(S[b] - sp); // sieve out the sum of composite numbers in S[a] which divided by p
 			} 
 		}
 	}
